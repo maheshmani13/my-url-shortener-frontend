@@ -11,7 +11,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "allowJs": false,
+    "allowJs": true,
     "noEmit": true,
     "declaration": true,
     "declarationMap": true,
@@ -19,7 +19,8 @@
     "types": ["node"],
     "lib": ["esnext"],
     "resolveJsonModule": true,
-    "isolatedModules": false
+    "isolatedModules": false,
+    "allowImportExportEverywhere": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx"],
   "exclude": ["node_modules", "dist"]
