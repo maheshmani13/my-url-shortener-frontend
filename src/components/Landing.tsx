@@ -8,7 +8,7 @@ const Landing = () => {
   const [originial_url, setOriginial_url] = useState("");
   const [clicks, Setclicks] = useState("");
   const [shortnedLink, setShortnedLink] = useState("");
-  const [tabtoggel, setTabtoggel] = useState(true);
+  const [tabtoggel, setTabtoggel] = useState(false);
   const fetchClicks = async () => {
     Setclicks("");
     if (shortnedLink === "") {
