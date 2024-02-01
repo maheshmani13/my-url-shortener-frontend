@@ -54,7 +54,7 @@ const Landing = () => {
         </div>
         <p>
           {" "}
-          Track what’s working, and what’s not. All inside the Bitly Connections
+          Track what’s working, and what’s not. All inside the Our Connections
           Platform
         </p>
       </div>
